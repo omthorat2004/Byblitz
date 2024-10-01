@@ -16,14 +16,16 @@ function VoterLogin() {
    
     try {
       await window.ethereum.request({ method: 'eth_requestAccounts' });
-      console.log("hELLO")
+     
       const provider = new ethers.BrowserProvider(window.ethereum);
       const signer = await provider.getSigner();
       const contract = new ethers.Contract(CONTRACT_ADDRESS, abi.abi, signer);
-      
+      const address = await signer.getAddress();
       const isValid = await contract.login(email, password);
+      console.log(isValid)
       if (isValid) {
         const voterDetails = await contract.voterDetails();
+        localStorage.setItem('account',address)
         navigate('/voter')
       
       } else {

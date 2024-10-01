@@ -20,7 +20,7 @@ const App = () => {
     const provider = new ethers.BrowserProvider(window.ethereum);
     const onAccountsChanged =async (accounts) => {
       if (accounts.length > 0) {
-        setAccount(accounts[0]);
+       
         localStorage.clear(); 
         const signer = await provider.getSigner()
 
