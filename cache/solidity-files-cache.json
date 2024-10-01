@@ -1,0 +1,113 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/omthorat/Documents/HardhatVoting/contracts/Counter.sol": {
+      "lastModificationDate": 1727773150789,
+      "contentHash": "218823701514598199a1035bdda8bd25",
+      "sourceName": "contracts/Counter.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "Counter"
+      ]
+    },
+    "/Users/omthorat/Documents/HardhatVoting/contracts/VoterAuth.sol": {
+      "lastModificationDate": 1727786702838,
+      "contentHash": "e8113884c3982083c17ee59cac3f1ffb",
+      "sourceName": "contracts/VoterAuth.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "VoterAuth"
+      ]
+    },
+    "/Users/omthorat/Documents/HardhatVoting/contracts/RankingVotingSystem.sol": {
+      "lastModificationDate": 1727791450753,
+      "contentHash": "572d5f793da201b0759fe10fed5ac893",
+      "sourceName": "contracts/RankingVotingSystem.sol",
+      "solcConfig": {
+        "version": "0.8.27",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "RankedVotingSystem"
+      ]
+    }
+  }
+}
